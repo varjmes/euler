@@ -1,0 +1,22 @@
+{
+  "name": "euler",
+  "version": "1.0.0",
+  "description": "Project Euler challenges, because I'm a masochist",
+  "main": "",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varjmes/euler.git"
+  },
+  "author": "James Spencer <jmes.spncer@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varjmes/euler/issues"
+  },
+  "homepage": "https://github.com/varjmes/euler#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
