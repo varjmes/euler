@@ -8,10 +8,6 @@ const findMultiples = (multiple, num) => {
   return multiples
 }
 
-const sumMultiples = multiples => {
-  return multiples.reduce((acc, curr) => acc + curr, 0)
-}
-
 const getUniqueValues = values => {
   const set = new Set(values)
   return [...set]
@@ -19,6 +15,5 @@ const getUniqueValues = values => {
 
 module.exports = {
   findMultiples,
-  getUniqueValues,
-  sumMultiples
+  getUniqueValues
 }
