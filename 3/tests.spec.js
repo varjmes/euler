@@ -1,5 +1,5 @@
 const { expect } = require('@jest/globals')
-const { generatePrimeNumbers, getPrimeFactors, isPrime } = require('./lib')
+const { generatePrimeNumbers, getPrimeFactors } = require('./lib')
 
 describe('#generatePrimeNumbers', () => {
   it('generate prime numbers up to the limit', () => {
@@ -16,16 +16,3 @@ describe('#getPrimeFactors', () => {
     expect(primeFactors).toEqual(expected)
   })
 })
-
-describe('#isPrime', () => {
-  it('should return false if the number is not prime', () => {
-    const result = isPrime(1)
-    expect(result).toEqual(false)
-  });
-
-  it('should return true if the number is prime', () => {
-    const result = isPrime(29)
-    expect(result).toEqual(true)
-  });
-});
-
