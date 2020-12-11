@@ -5,7 +5,7 @@
 // Find the sum of all the multiples of 3 or 5 below 1000.
 
 const { findMultiples, getUniqueValues } = require('./lib')
-const sumArrayValues = require('../lib/sumArrayValues')
+const { sumArrayValues } = require('../lib/mathArrayValues')
 
 const multiplesOfThree = findMultiples(3, 1000)
 const multiplesOfFive = findMultiples(5, 1000)

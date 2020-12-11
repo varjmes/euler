@@ -8,7 +8,7 @@
 // four million, find the sum of the even-valued terms.
 
 const getEvenFibonacciValues = require('./lib')
-const sumArrayValues = require('../lib/sumArrayValues')
+const { sumArrayValues } = require('../lib/mathArrayValues')
 
 const sequence = getEvenFibonacciValues(4000000)
 const sum = sumArrayValues(sequence)

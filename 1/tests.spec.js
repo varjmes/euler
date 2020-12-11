@@ -1,6 +1,6 @@
 const { describe, expect } = require('@jest/globals')
 const { findMultiples, getUniqueValues } = require('./lib')
-const sumArrayValues = require('../lib/sumArrayValues')
+const { sumArrayValues } = require('../lib/mathArrayValues')
 
 describe('Multiples of 3 and 5', () => {
   describe('#findMultiples', () => {
